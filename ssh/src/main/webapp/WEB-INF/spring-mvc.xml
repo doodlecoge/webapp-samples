@@ -31,7 +31,7 @@
 
     <jdbc:embedded-database id="dataSource" type="HSQL">
         <jdbc:script location="classpath*:sql/hsql.sql"/>
-        <jdbc:script location="classpath*:sql/hsql-data.sql"/>
+        <jdbc:script location="classpath*:sql/hsql-data.sql" encoding="utf-8"/>
     </jdbc:embedded-database>
 
 
